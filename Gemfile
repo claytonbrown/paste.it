@@ -43,7 +43,7 @@ gem "formtastic", "~> 1.1.0"
 gem 'devise'
 gem "will_paginate", "~> 3.0.pre2"
 group :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '>= 0.3.2'
   gem 'capybara'
   gem 'launchy'
 end
