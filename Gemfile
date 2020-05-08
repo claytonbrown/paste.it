@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -38,7 +38,7 @@ group :development, :test do
   gem 'web-app-theme', '>= 0.6.2'
 end
 
-gem 'jquery-rails', '~> 0.2.5'
+gem 'jquery-rails', '~> 1.0.1'
 gem "formtastic", "~> 1.1.0"
 gem 'devise'
 gem "will_paginate", "~> 3.0.pre2"
