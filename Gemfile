@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '5.2.4.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -38,14 +38,14 @@ group :development, :test do
   gem 'web-app-theme', '>= 0.6.2'
 end
 
-gem 'jquery-rails', '~> 0.2.5'
+gem 'jquery-rails', '~> 4.4.0'
 gem "formtastic", "~> 1.1.0"
-gem 'devise'
-gem "will_paginate", "~> 3.0.pre2"
+gem 'devise', '>= 4.7.1'
+gem "will_paginate", "~> 3.0.5"
 group :test do
-  gem 'cucumber-rails'
-  gem 'capybara'
-  gem 'launchy'
+  gem 'cucumber-rails', '>= 0.3.2'
+  gem 'capybara', '>= 0.4.0'
+  gem 'launchy', '>= 0.3.7'
 end
 
 gem 'paper_trail', '~> 1.6.3'
