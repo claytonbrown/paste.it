@@ -38,7 +38,7 @@ group :development, :test do
   gem 'web-app-theme', '>= 0.6.2'
 end
 
-gem 'jquery-rails', '~> 4.4.0'
+gem 'jquery-rails', '~> 0.2.5'
 gem "formtastic", "~> 1.1.0"
 gem 'devise', '>= 4.7.1'
 gem "will_paginate", "~> 3.0.5"
