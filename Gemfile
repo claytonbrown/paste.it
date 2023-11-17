@@ -44,7 +44,7 @@ gem 'devise', '>= 4.7.1'
 gem "will_paginate", "~> 3.0.5"
 group :test do
   gem 'cucumber-rails', '>= 0.3.2'
-  gem 'capybara', '>= 0.4.0'
+  gem 'capybara', '>= 0.4.1.1'
   gem 'launchy', '>= 0.3.7'
 end
 
